@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #FBFAFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* logo */
+
+.logo{
+    margin-left: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo img{
+    width: 75px;
+    height: auto;
+}
+
+.logo p {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.logo span{
+    color: #FF7979;
+}
+
+/* navlinks */
+.navlink{
+    transform: translateX(100%);
+}
+
+.navlink a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.navlink a:hover{
+    color: #FF7979;
+}
+
+.navlink a.active{
+    color: #FF7979;
+}
+
+/* button */
+.nav-btn{
+    margin-right: 25px;
+}
+
+.nav-btn a{
+    background-color: #FF7979;
+    color: white;
+    margin: 3px;
+    border-radius: 6px;
+    padding: 6px 9px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+
+.nav-btn a:hover{
+    transform: translateY(-2px) scale(1.02);
+    background-color: #FF5151;
+    box-shadow: 0 5px 15px rgba(230, 91, 91, 0.4);
+    cursor: pointer;
+}
+
+/* hero */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+}
+
+.hero-content{
+    flex: 1;
+    max-width: 500px;
+}
+
+.hero-content h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.hero-content h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-content p{
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.cta{
+    display: inline-block;
+    background-color: #FF6E6E;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cta:hover{
+    transform: translateY(-2px) scale(1.02);
+    background-color: #FF5151;
+    box-shadow: 0 5px 15px rgba(230, 91, 91, 0.4);
+}
+
+.hero-img img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
