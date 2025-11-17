@@ -41,7 +41,9 @@
 
 /* navlinks */
 .navlink{
-    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
 }
 
 .navlink a{
@@ -49,6 +51,8 @@
     color: black;
     font-weight: 500;
     margin: 5px;
+    padding: 8px 12px;
+
 }
 
 .navlink a:hover{
@@ -137,3 +141,4 @@
     border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
