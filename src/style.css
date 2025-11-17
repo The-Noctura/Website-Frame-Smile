@@ -41,7 +41,7 @@
 
 /* navlinks */
 .navlink{
-    transform: translateX(100%);
+    transform: translateX(75%);
 }
 
 .navlink a{
