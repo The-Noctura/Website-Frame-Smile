@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #FBFAFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* logo */
+
+.logo{
+    margin-left: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo img{
+    width: 75px;
+    height: auto;
+}
+
+.logo p {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.logo span{
+    color: #FF7979;
+}
+
+.navlink{
+    margin-right: 27px;
+}
+
+.navlink a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.navlink a:hover{
+    color: #FF7979;
+}
+
+.navlink a.active{
+    color: #FF7979;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 40px 20px;
+}
+
+
+.google img{
+    width: 30px;
+}
+
+.apple img{
+    width: 30px;
+}

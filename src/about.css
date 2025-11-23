@@ -44,6 +44,8 @@
     display: flex;
     align-items: center;
     font-size: 16px;
+    transform: translateX(75%);
+    display: flex;
 }
 
 .navlink a{
@@ -51,6 +53,7 @@
     color: black;
     font-weight: 500;
     margin: 5px;
+
     padding: 8px 12px;
 
 }
