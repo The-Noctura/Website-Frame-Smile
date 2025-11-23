@@ -85,10 +85,7 @@
     box-shadow: 0 5px 15px rgba(230, 91, 91, 0.4);
     cursor: pointer;
 }
-
-/* ======================== */
 /* ABOUT SECTION */
-/* ======================== */
 
 .about-section {
     max-width: 1200px;
@@ -144,9 +141,7 @@
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* ======================== */
 /* VISI MISI */
-/* ======================== */
 
 .section-title-center {
     text-align: center;
@@ -198,42 +193,6 @@
 .visi-card h4 {
     font-size: 20px;
     margin-bottom: 10px;
-}
-
-/* ======================== */
-/* KENAPA PILIH KAMI */
-/* ======================== */
-
-.reason-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 35px;
-    max-width: 900px;
-    margin: 60px auto;
-}
-
-.reason-card {
-    background: white;
-    padding: 25px 20px;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0px 6px 15px rgba(0,0,0,0.05);
-    transition: .3s ease;
-}
-
-.reason-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
-}
-
-.reason-card img {
-    width: 50px;
-    margin-bottom: 12px;
-}
-
-.reason-card h4 {
-    font-size: 18px;
-    margin-bottom: 5px;
 }
 
 /* ======================== */
