@@ -40,11 +40,17 @@
 }
 
 /* navlinks */
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .navlink{
     display: flex;
     align-items: center;
     font-size: 16px;
-    transform: translateX(75%);
     display: flex;
 }
 
@@ -79,6 +85,7 @@
     padding: 6px 9px;
     transition: all 0.3s ease;
     display: inline-block;
+    text-decoration: none;
 }
 
 

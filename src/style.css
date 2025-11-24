@@ -40,11 +40,17 @@
 }
 
 /* navlinks */
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .navlink{
     display: flex;
     align-items: center;
     font-size: 16px;
-    transform: translateX(75%);
 }
 
 .navlink a{
