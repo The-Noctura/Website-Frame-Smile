@@ -43,12 +43,20 @@
     gap: 20px; 
     margin-right: 0; 
 }
+/* navlinks */
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 .navlink{
     display: flex;
     align-items: center;
     font-size: 16px;
     gap: 15px; 
+    display: flex;
 }
 
 .navlink a{
