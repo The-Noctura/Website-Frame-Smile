@@ -1,0 +1,71 @@
+.container {
+    margin: 15px;
+    margin-top: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    align-items: center;
+    gap: 25px;
+    margin: 20px;
+    max-width: 400px;
+}
+
+.social-contact {
+    margin-top: 25px;
+    display: flex;
+}
+
+.social-contact img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.form-container {
+    background-color: #FDFBF9;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: auto;
+
+}
+
+form input {
+    padding: 8px;
+    border-radius: 6px;
+    border: solid 1px;
+}
+
+form textarea {
+    padding: 16px;
+    border-radius: 12px;
+    border: solid 1px;
+}
+
+form button {
+    width: 100px;
+    height: auto;
+    padding: 6px;
+    border-radius: 8px;
+    border: solid 1px;
+    background-color: #FF95B5;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    transform: translateY(-2px) scale(1.02);
+    background-color: #E57799;
+    box-shadow: 0 5px 18px rgba(204, 119, 145, 0.45);
+    /* 15% lebih gelap */
+    cursor: pointer;
+}
