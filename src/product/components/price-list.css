@@ -1,0 +1,11 @@
+.price-list{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #FDFBF9;
+}
+
+h4{
+    max-width: 400px;
+}

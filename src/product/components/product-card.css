@@ -1,0 +1,21 @@
+.product-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 100px 20px 100px;
+}
+
+.product-card{
+    padding: 16px;
+    border: 2px solid gray;
+    border-radius: 16px;
+}
+
+.template-grid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 100px 20px 100px;
+}
