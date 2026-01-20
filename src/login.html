@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
     <title>FRAME SMILE | Login</title>
 </head>
 <body>
     <header class="navbar">
         <div class="logo">
-            <a href="/src/index.html"><img src="/img/LOGO FRAME SMILE ACC 1.png" alt="Logo berbentuk bintang dengan tulisan Frame smile ditengah serta memiliki ujung yang tumpul"></a>
+            <a href="/src/index.html"><img src="../img/LOGO FRAME SMILE ACC 1.png" alt="Logo berbentuk bintang dengan tulisan Frame smile ditengah serta memiliki ujung yang tumpul"></a>
             <p>FRAME <span>SMILE</span></p>
         </div>
         <nav class="navlink">
@@ -20,14 +21,16 @@
         </nav>
     </header>
 
+    <p id="notif" class="notif"></p>
+
     <main class="container">
         <div class="login-card">
 
             <h2>Welcome Back!</h2>
             
-            <form class="login-form">
+            <form class="login-form" action="../backend/auth/login.php" method="POST">
                 <div class="input-group">
-                    <input type="text" id="username" placeholder="Enter Your Username" required>
+                    <input type="text" name="username" id="username" placeholder="Enter Your Username" required>
                 </div>
                 
                 <div class="input-group password-group">
@@ -42,12 +45,12 @@
             <div class="social-login">
                 
                 <button class="social-btn google-btn">
-                    <img src="/img/google-logo.png" alt="Google Logo" class="social-img">
+                    <img src="../img/google-logo.png" alt="Google Logo" class="social-img">
                     Google
                 </button>
     
                 <button class="social-btn apple-btn">
-                    <img src="/img/apple-logo.png" alt="Apple Logo" class="social-img">
+                    <img src="../img/apple-logo.png" alt="Apple Logo" class="social-img">
                     Apple
                 </button>
             </div>
@@ -55,6 +58,8 @@
             <p class="register-link">Don't Have Account? <a href="/src/sign-up.html">>> Register Now <<</a></p>
         </div>
     </main>
+
+    
     
 </body>
 </html>

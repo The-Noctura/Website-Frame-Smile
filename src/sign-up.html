@@ -10,7 +10,7 @@
 <body>
     <header class="navbar">
         <div class="logo">
-            <a href="/src/index.html"><img src="/img/LOGO FRAME SMILE ACC 1.png" alt="Logo berbentuk bintang dengan tulisan Frame smile ditengah serta memiliki ujung yang tumpul"></a>
+            <a href="/src/index.html"><img src="../img/LOGO FRAME SMILE ACC 1.png" alt="Logo berbentuk bintang dengan tulisan Frame smile ditengah serta memiliki ujung yang tumpul"></a>
             <p>FRAME <span>SMILE</span></p>
         </div>
         <nav class="navlink">
@@ -26,30 +26,30 @@
 
             <h2>Sign Up</h2>
             
-            <form class="Sign-up-form">
+            <form class="Sign-up-form" action="../backend/auth/sign-up.php" method="POST">
                 <div class="input-group">
                     <label for="nama-depan">Nama Depan</label>
-                    <input type="text" id="nama-depan" placeholder="Masukan Nama Depan" required>
+                    <input type="text" name="first_name" id="nama-depan" placeholder="Masukan Nama Depan" required>
                 </div>
 
                 <div class="input-group">
                     <label for="nama-belakang">Nama Belakang</label>
-                    <input type="text" id="nama-belakang" placeholder="Masukan Nama Belakang" required>
+                    <input type="text" name="last_name" id="nama-belakang" placeholder="Masukan Nama Belakang" required>
                 </div>  
                 
                 <div class="input-group">
                     <label for="username">Username</label>
-                    <input type="text" id="username" placeholder="Enter Your Username" required>
+                    <input type="text" name="username" id="username" placeholder="Enter Your Username" required>
                 </div>
                 
                 <div class="input-group password-group">
                     <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="Enter Your Password" required>
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
                 </div>
 
                 <div class="input-group Email">
                     <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Enter Your Email" required>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
                 </div>
     
                 <button type="submit" class="btn-signin">Sign In</button>
@@ -60,17 +60,17 @@
             <div class="social-login">
                 
                 <button class="social-btn google-btn">
-                    <img src="/img/google-logo.png" alt="Google Logo" class="social-img">
+                    <img src="../img/google-logo.png" alt="Google Logo" class="social-img">
                     Google
                 </button>
     
                 <button class="social-btn apple-btn">
-                    <img src="/img/apple-logo.png" alt="Apple Logo" class="social-img">
+                    <img src="../img/apple-logo.png" alt="Apple Logo" class="social-img">
                     Apple
                 </button>
             </div>
     
-            <p class="register-link">Don't Have Account? <a href="/src/signup.html">>> Register Now <<</a></p>
+            <p class="register-link">do you Have Account? <a href="/src/login.html">>> Login Now <<</a></p>
         </div>
     </main>
     
