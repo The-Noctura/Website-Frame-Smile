@@ -16,6 +16,10 @@
     width: auto;
     flex-shrink: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .side-bar ul{
@@ -29,6 +33,11 @@
     color: black;
 }
 
+.side-bar ul li a.active{
+    background-color: #FF95B5;
+    padding: 12px 24px;
+    border-radius: 12px;
+}
 
 .side-bar h3{
     margin: 2rem;
