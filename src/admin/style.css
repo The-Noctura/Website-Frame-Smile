@@ -13,35 +13,40 @@
 
 /* side-bar */
 .side-bar{
-    width: auto;
+    width: 240px;
     flex-shrink: 0;
-    text-align: center;
+    transition: width 0.3s ease;
+}
+
+.side-bar.collapsed{
+    width: 70px;
+}
+
+.side-bar.collapsed .text{
+    display: none;
+}
+
+.side-bar.collapsed .toggle-text{
+    display: none;
+}
+
+.sidebar-menu a{
     display: flex;
-    flex-direction: column;
-    gap: 32px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+    align-items: center;
 }
 
-.side-bar ul{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+.side-bar.collapsed .sidebar-menu{
+    justify-content: center;
 }
 
-.side-bar ul li a{
-    text-decoration: none;
-    color: black;
+.toggle-text{
+    cursor: pointer;
+    user-select: none;
 }
 
-.side-bar ul li a.active{
-    background-color: #FF95B5;
-    padding: 12px 24px;
-    border-radius: 12px;
-}
-
-.side-bar h3{
-    margin: 2rem;
-    font-size: 32px;
+.toggle-icon{
+    cursor: pointer;
+    user-select: none;
 }
 
 /* main-content */
@@ -61,4 +66,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+/* stat */
+.stat{
+    display: flex;
+    gap: 1rem;
 }
