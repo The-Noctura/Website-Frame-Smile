@@ -1,26 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/admin/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="dashboard">
 
         <aside class="side-bar">
-            <h3>Admin Panel</h3>
-            <ul>
-                <li><a href="/src/admin/dashboard.html">Dashboard</a></li>
-                <li><a href="/src/admin/produk.html">Produk</a></li>
-                <li><a href="/src/admin/pesanan.html">Pesanan</a></li>
-                <li><a href="/src/admin/pelanggan.html">Pelanggan</a></li>
-                <li><a href="/src/admin/laporan.html">Laporan</a></li>
-                <li><a href="/src/admin/pengaturan.html" class="active">Pengaturan</a></li>
-            </ul>
+            <div class="sidebar-header">
+                <span class="toggle-icon">☰</span>
+                <span class="toggle-text">Admin Panel</span>
+            </div>
+
+            <nav class="sidebar-menu">
+                <ul>
+                    <li>
+                        <a href="/src/admin/dashboard.html">
+                            <span class="icon"></span>
+                            <span class="text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/src/admin/produk.html">
+                            <span class="icon"></span>
+                            <span class="text">Produk</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/src/admin/pesanan.html">
+                            <span class="icon"></span>
+                            <span class="text">Pesanan</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/src/admin/pelanggan.html">
+                            <span class="icon"></span>
+                            <span class="text">Pelanggan</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/src/admin/laporan.html">
+                            <span class="icon"></span>
+                            <span class="text">Laporan</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/src/admin/pengaturan.html" class="active">
+                            <span class="icon"></span>
+                            <span class="text">Pengaturan</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </aside>
-    
+
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
