@@ -97,6 +97,7 @@
     height: 60px;
     background-color: #FDFBF9;
     align-items: center;
+    justify-content: space-between;
 }
 
 .navbar p{
@@ -104,6 +105,15 @@
     font-style: bold;
     font-weight: 400;
     font-size: 24px;
+}
+
+.right{
+    margin-right: 2rem;
+    gap: 1rem;
+}
+
+.right img{
+    width: 32px;
 }
 
 /* content */
