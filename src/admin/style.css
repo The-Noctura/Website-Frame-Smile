@@ -93,7 +93,17 @@
 }
 
 .navbar{
+    display: flex;
     height: 60px;
+    background-color: #FDFBF9;
+    align-items: center;
+}
+
+.navbar p{
+    margin-left: 16px;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 /* content */
